@@ -14,3 +14,6 @@ Finally I worked on the footer and tried to make it stick to the bottom - althou
 
 Once I was done I tested everything to make sure it worked.
 
+Went back in and was able to fix footer at bottom by adding a class of fixed-bottom, was also able to center my name in the footer by adding class text-center.
+
+The reason my color wasn't working was because I was trying to add this <div class="p-3 mb-2 bg-info text-white">.bg-info</div> instead of just adding the class bg-info within the section. 
